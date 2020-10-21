@@ -3,13 +3,13 @@ html, body{
   }
 
   table, td{
-    border: 3px solid #000;
+    border: 3px solid #DDD;
     border-collapse: collapse;
     text-align: center;
   }
 
   table tr:nth-child(odd){
-    background-color: #ccc;
+    background-color: rgb(156, 140, 140);
   }
 
   table tr:nth-child(1) td:nth-child(1),
@@ -28,5 +28,5 @@ html, body{
   table tr:nth-child(3) td:nth-child(3),
   table tr:nth-child(3) td:nth-child(5),
   table tr:nth-child(3) td:nth-child(6){
-    background-color: #d61919;
+    background-color:black;
   }
